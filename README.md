@@ -39,6 +39,6 @@ chmod +x launch.sh
 يطلب رقم خلي رقم للبوت ومبروك عليك البوت 
 ان شاء الله ما قصرت وياكم بشي
 تنصيب موفق للجميع
-@ao_shosho98
+@abo_shosho98
 
-@ao_shosho98
+@abo_shosho98
