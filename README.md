@@ -18,11 +18,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 وراها حط
 **************
-git clone https://github.com/ahm3d97/Th3_BOOS.git
+git clone https://github.com/mandla99/the_king98.git
 *****************************************************
 وراها حط
 **************************
-cd Th3_BOOS
+cd the_king98
 **************************
 وراها خلي
 **************************
@@ -39,7 +39,6 @@ chmod +x launch.sh
 يطلب رقم خلي رقم للبوت ومبروك عليك البوت 
 ان شاء الله ما قصرت وياكم بشي
 تنصيب موفق للجميع
-تحياتي اخوكم #الزعيم
+@ao_shosho98
 
-المطور#الزعيم
-@Th3_BOOS
+@ao_shosho98
