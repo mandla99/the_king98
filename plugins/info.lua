@@ -1,9 +1,9 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY Th3_BOOS                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY Th3_BOOS          ▀▄ ▄▀   
+▀▄ ▄▀    BY abo_shosho98                     ▀▄ ▄▀ 
+▀▄ ▄▀     BY Th3_BOOS (@abo_shosho98  )    ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY abo_shosho98            ▀▄ ▄▀   
 ▀▄ ▄▀     info user  : معلوماتي            ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
@@ -211,7 +211,7 @@ local function run(msg, matches)
 	 text = text..'❣ اسم المجموعه : '..msg.to.title..'\n'
      text = text..'❣ ايدي المجموعه : '..msg.to.id
     end
-	text = text..'\n\n❣ #المطور : @Th3_BOOS\n❣'
+	text = text..'\n\n❣ #المطور : @abo_shosho98  \n❣'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
