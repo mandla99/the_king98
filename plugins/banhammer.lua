@@ -1,9 +1,9 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY Th3_BOOS                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY Th3_BOOS          ▀▄ ▄▀   
+▀▄ ▄▀    BY abo_shosho98                   ▀▄ ▄▀ 
+▀▄ ▄▀     BY Th3_BOOS (@abo_shosho98)    ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY abo_shosho98           ▀▄ ▄▀   
 ▀▄ ▄▀      ban hammer  : الطرد والحظر      ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
@@ -103,7 +103,7 @@ local function kick_ban_res(extra, success, result)
 		receiver = 'channel#id'..chat_id
 	  end
 	  if success == 0 then
-		return send_large_msg(receiver, "ماكو هيج معرف تاكد كبدي❤️")
+		return send_large_msg(receiver, "ماكو هيج معرف تاج راسي😎")
 	  end
       local member_id = result.peer_id
       local user_id = member_id
@@ -112,20 +112,20 @@ local function kick_ban_res(extra, success, result)
       local get_cmd = extra.get_cmd
        if get_cmd == "دي" then
          if member_id == from_id then
-            send_large_msg(receiver, "لا تستطيع طرد نفسك")
+            send_large_msg(receiver, "لا صير مطي انت ادمن شون تطرد نفسك😕")
 			return
          end
          if is_momod2(member_id, chat_id) and not is_admin2(sender) then
-            send_large_msg(receiver, "لا تستطيع طرد الادمنية او المدراء")
+            send_large_msg(receiver, "هذا غير بطران يريد يطرد الادمنيه😉")
 			return
          end
 		 kick_user(member_id, chat_id)
       elseif get_cmd == 'حظر' then
         if is_momod2(member_id, chat_id) and not is_admin2(sender) then
-			send_large_msg(receiver, "لا تسطيع حضر الادمنية او المدراء")
+			send_large_msg(receiver, "لا تستطيع حضر المدراء والادمن في هذه المجموعه😋")
 			return
         end
-        send_large_msg(receiver, 'العضو @'..member..' ['..member_id..'] تم حضره')
+        send_large_msg(receiver, 'العضو @'..member..' ['..member_id..'] تم حضره😁')
 		ban_user(member_id, chat_id)
       elseif get_cmd == 'الغاء الحظر' then
         send_large_msg(receiver, 'العضو @'..member..' ['..member_id..'] راح الحضر منة')
@@ -145,7 +145,7 @@ local function run(msg, matches)
 local support_id = msg.from.id
  if matches[1]:lower() == 'ايدي' and msg.to.type == "chat" or msg.to.type == "user" then
     if msg.to.type == "user" then
-      return "❣ ايدي البوت : "..msg.to.id.. "\n\n❣ ايدي حسابك : "..msg.from.id.. "\n\n❣ #المطور @Th3_BOOS"
+      return "❣ ايدي البوت : "..msg.to.id.. "\n\n❣ ايدي حسابك : "..msg.from.id.. "\n\n❣ #المطور @abo_shosho98"
     end
     if type(msg.reply_id) ~= "nil" then
       local print_name = user_print_name(msg.from):gsub("‮", "")
